@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-
         binding.tvSpinner.setOnClickListener {
             SearchableSpinnerDialog(this@MainActivity, arrayListOf("1", "2", "3"), object : SearchableSpinnerDialog.SearchableSpinnerListListener {
                 override fun onItemClickListener(name: String) {
